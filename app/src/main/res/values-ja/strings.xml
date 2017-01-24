@@ -16,7 +16,7 @@
     <string name="action_copy_domain">ドメインをコピー</string>
     <string name="action_image_off">画像を閉じる</string>
     <string name="settings">設定</string>
-    <string name="location">位置情報へのアクセスを許可する</string>
+    <string name="location">位置情報へのアクセス</string>
     <string name="password">パスワードを保存</string>
     <string name="save_formdata">フォームを保存</string>
     <string name="donate">Via を支援</string>
@@ -57,8 +57,8 @@
     <string name="dialog_adobe_not_installed">Flash Playerをインストール後、有効に切り替えることができます。</string>
     <string name="dialog_adobe_unsupported">Flash PlayerはAndroid 4.2以降では正常に動作しません。ブラウザがクラッシュする可能性があります。</string>
     <string name="title_user_agent">ブラウザ UA</string>
-    <string name="title_custom_homepage">ページを設定</string>
-    <string name="action_webpage">特定のページ</string>
+    <string name="title_custom_homepage">ホームページを設定</string>
+    <string name="action_webpage">カスタム</string>
     <string name="action_yes">OK</string>
     <string name="action_no">キャンセル</string>
     <string name="title_text_size">フォントサイズ</string>
@@ -81,7 +81,7 @@
     <string name="download_no_sdcard_dlg_msg">このファイルをダウンロードするには USB ストレージが必要です</string>
     <string name="download_sdcard_busy_dlg_title">USB ストレージが利用不可です</string>
     <string name="download_sdcard_busy_dlg_msg">ストレージがビジー状態です。ダウンロードするには、ステータスバーから USB 接続を変更してください。</string>
-    <string name="incognito_cookies">シークレットタブで Cookie を有効にする</string>
+    <string name="incognito_cookies">シークレットタブで Cookie を有効</string>
     <string name="title_flash">Flash Player</string>
     <string name="action_manual">手動</string>
     <string name="action_auto">自動</string>
@@ -97,12 +97,12 @@
     <string name="title_form_resubmission">フォームの再送</string>
     <string name="message_form_resubmission">再送信しますか？</string>
     <string name="message_location">\n位置情報へのアクセスを許可しますか？</string>
-    <string name="action_allow">許可</string>
-    <string name="action_dont_allow">拒否</string>
+    <string name="action_allow">はい</string>
+    <string name="action_dont_allow">いいえ</string>
     <string name="title_sign_in">サインイン</string>
     <string name="hint_username">ユーザー名</string>
     <string name="hint_password">パスワード</string>
-    <string name="untitled">無題</string>
+    <string name="untitled">空白のページ</string>
     <string name="image_auto">Wi-Fi接続時のみ</string>
     <string name="image_on">画像を非表示</string>
     <string name="image_off">画像を表示</string>
@@ -162,7 +162,7 @@
     <string name="operation_none">アクションなし</string>
     <string name="operation_reload">再読み込み</string>
     <string name="operation_top">トップへ戻る</string>
-    <string name="operation_bottom">ボトムへ移動</string>
+    <string name="operation_bottom">下部へ移動</string>
     <string name="operation_input">URL を入力</string>
     <string name="operation_newtab">新しいタブ</string>
     <string name="operation_addbookmark">ブックマークに追加</string>
@@ -174,8 +174,8 @@
     <string name="operation_goback">前に戻す</string>
     <string name="operation_goforward">次に進む</string>
     <string name="operation_find">ページ内検索</string>
-    <string name="gesture_toolbar_left">ボトムバー左スライド</string>
-    <string name="gesture_toolbar_right">ボトムバー右スライド</string>
+    <string name="gesture_toolbar_left">ツールバー左スライド</string>
+    <string name="gesture_toolbar_right">ツールバー右スライド</string>
     <string name="url_box">アドレスバーの内容</string>
     <string name="url_box_domain">ドメイン</string>
     <string name="url_box_url">URL</string>
@@ -216,11 +216,11 @@
     <string name="toast_operation_done">完了しました</string>
     <string name="action_send_to_launcher">ホーム画面に追加</string>
     <string name="settings_cloud">アカウント</string>
-    <string name="user">ログイン/登録</string>
-    <string name="user_syns">サーバーから同期</string>
+    <string name="user">ログイン・登録</string>
+    <string name="user_syns">サーバーと同期</string>
     <string name="user_update">サーバーにアップロード</string>
     <string name="log_in_success">ログインしました</string>
-    <string name="wrong_psw">パスワードに誤りがあります</string>
+    <string name="wrong_psw">パスワードが間違っています。</string>
     <string name="sign_up_success">登録しました</string>
     <string name="code_500">サーバーエラー</string>
     <string name="syns_success">同期成功</string>
@@ -247,20 +247,20 @@
     <string name="toast_fullscreen_on">全画面表示</string>
     <string name="toast_fullscreen_off">全画面解除</string>
 
-    <string name="clear_data">データを消去&#8230;</string>
-    <string name="clear_data_on_exit">終了時にデータを消去する&#8230;</string>
+    <string name="clear_data">閲覧履歴の削除</string>
+    <string name="clear_data_on_exit">終了時に閲覧履歴を削除する</string>
     <string name="data_cache">キャッシュ</string>
     <string name="data_form_data">フォーム</string>
     <string name="data_history">閲覧履歴</string>
     <string name="data_storage">ストレージ</string>
     <string name="data_cookies">Cookie</string>
-    <string name="data_cleared">消去しました</string>
+    <string name="data_cleared">削除しました</string>
 
     <string name="cannot_undo">削除後に復元は出来ません</string>
 
     <string name="need_permission_hint">権限が必要です\n\n</string>
 
-    <string name="sync_desc">登録中…</string>
+    <string name="sync_desc">アカウントが存在しない場合、新規でアカウントが作成されます。</string>
 
     <string name="settings_skin">カスタマイズ</string>
     <string name="default_set">デフォルト</string>
@@ -285,11 +285,11 @@
     <string name="open_window_hint">新しいタブを開いています</string>
 
     <string name="save_web_page">ページを保存</string>
-    <string name="saved_pages">オフラインページ</string>
+    <string name="saved_pages">保存したページ</string>
     <string name="saved_page_successfully">保存しました</string>
-    <string name="deleted_failed">削除できませんでした。ダウンロードディレクトリに削除してください: </string>
+    <string name="deleted_failed">削除できませんでした。ファイルの場所: </string>
 
-    <string name="empty_hint">ここには何もありません&#8230;</string>
+    <string name="empty_hint">表示できるものはありません</string>
 
     <string name="network_log">ネットワーク ログ</string>
     <string name="catalog">カタログ</string>
@@ -307,22 +307,22 @@
     <string name="cannot_view_source">\"http\"または\"https\"を使用したサイトのみのソースを表示できます</string>
     <string name="sync_prompt">ブックマークと設定を上書きますか？</string>
     <string name="upload_prompt">ブックマークと設定をアップロードしますか？</string>
-    <string name="sougou_url">sougou</string>
+    <string name="sougou_url">搜狗</string>
     <string name="uninstall_success">アンインストールが完了しました！</string>
     <string name="action_addons">ツールボックス</string>
-    <string name="action_log">ログ</string>
+    <string name="action_log">ネットワークログ</string>
     <string name="install_success">インストールしました！</string>
-    <string name="restore_tabs_hint">前回閉じたタブを開きますか？</string>
+    <string name="restore_tabs_hint">前回のタブを開きますか？</string>
     <string name="action_back">戻る</string>
     <string name="restore_tabs">前回開いていたページを開く</string>
     <string name="none">なし</string>
     <string name="local_page_bg">ホーム画像</string>
     <string name="online_addons">アドオン</string>
     <string name="force_cancel">強制終了</string>
-    <string name="check_permission">アクセス許可が必要ですが・・・</string>
-    <string name="phone_permission">電話：非個人情報に関する単純な統計、及びより詳しいエラーログの収集。</string>
+    <string name="check_permission">権限が付与されていません。設定しますか？</string>
+    <string name="phone_permission">電話：非個人情報に関する統計及び、より詳しいエラーログの収集。</string>
     <string name="order_hint">数値の大きい順</string>
-    <string name="action_order">表示順序の調整</string>
+    <string name="action_order">表示順序の変更</string>
     <string name="storage_permission">ストレージ：ダウンロード、ブックマークの保存。</string>
     <string name="location_permission">位置情報：天気予報などサイト内にアクセスできるようにする。</string>
     <string name="search_prompt">検索クエリプロンプト</string>
@@ -345,4 +345,10 @@
     <string name="open_in_new_background">バックグラウンド</string>
     <string name="open_in_new_foreground">フォアグラウンド</string>
     <string name="help_us_translate">翻訳に協力する</string>
+    <string name="ui_tablet_bottom">タブレット（下部にバー）</string>
+    <string name="skin_logo">ロゴ</string>
+    <string name="skin_bg">背景</string>
+    <string name="skin_style">スタイル</string>
+    <string name="skin_settings">設定</string>
+    <string name="set_it_as_homepage">ホームページに設定しますか？</string>
 </resources>
