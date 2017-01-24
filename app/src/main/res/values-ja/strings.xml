@@ -344,7 +344,7 @@
     <string name="open_in_new">新しいタブの開き方</string>
     <string name="open_in_new_background">バックグラウンド</string>
     <string name="open_in_new_foreground">フォアグラウンド</string>
-    <string name="help_us_translate">翻訳に協力する</string>
+    <string name="help_us_translate">翻訳に協力する（GitHubに移動します）</string>
     <string name="ui_tablet_bottom">タブレット（下部にバー）</string>
     <string name="skin_logo">ロゴ</string>
     <string name="skin_bg">背景</string>
