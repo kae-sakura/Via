@@ -220,7 +220,7 @@
     <string name="user_syns">サーバーから同期</string>
     <string name="user_update">サーバーにアップロード</string>
     <string name="log_in_success">ログインしました</string>
-    <string name="wrong_psw">パスワードに誤りがあります</string>
+    <string name="wrong_psw">パスワードが間違っています</string>
     <string name="sign_up_success">登録しました</string>
     <string name="code_500">サーバーエラー</string>
     <string name="syns_success">同期成功</string>
