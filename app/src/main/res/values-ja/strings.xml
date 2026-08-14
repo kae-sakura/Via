@@ -7,7 +7,9 @@
     <string name="action_new_tab">新しいタブ</string>
     <string name="action_open_in_new">新しいタブで開く</string>
     <string name="action_open_in_background">バックグラウンドタブで開く</string>
+    <string name="action_download_image">画像をダウンロード</string>
     <string name="action_save_img">画像を保存</string>
+    <string name="image_saved_to_gallery">画像をギャラリーに保存しました</string>
     <string name="action_copy">アドレスをコピー</string>
     <string name="action_copy_text">テキストをコピー</string>
     <string name="action_copy_link_text">テキストをコピー</string>
@@ -155,6 +157,8 @@
         \n@@||example.com^
         \n\n次のようなWEBページ上の要素の場合:
         \nexample.com###ad</string>
+    <string name="adblock_add_site_exception_on">特定のサイトで広告ブロックを有効にする</string>
+    <string name="adblock_add_site_exception_off">特定のサイトで広告ブロックを無効にする</string>
     <string name="help">ヘルプ</string>
     <string name="learn_more">さらに詳しく（英語サイト）</string>
     <plurals name="filters">
@@ -180,7 +184,10 @@
     <!-- 設定｜一般｜サイト別設定 -->
     <string name="site_conf">サイト別設定</string>
     <string name="all_sites">全てのサイト</string>
+    <!-- 設定｜一般｜サイト別設定｜コンテンツ -->
     <string name="category_content">コンテンツ</string>
+    <string name="size">フォントサイズ</string>
+    <string name="text_size_site_exception_add">特定のサイトのフォントサイズを設定する</string>
     <string name="category_basics">基本設定</string>
     <string name="category_permissions">権限設定</string>
     <string name="add_site_exception">例外設定を追加します</string>
@@ -190,6 +197,8 @@
     <string name="block">ブロック</string>
     <string name="allow">許可</string>
     <string name="agent_add_site_exception">指定したUser Agentでページを開きます</string>
+    <string name="desktop_mode_add_site_exception_on">特定のサイトでデスクトップモードを有効にする</string>
+    <string name="desktop_mode_add_site_exception_off">特定のサイトでデスクトップモードを無効にする</string>
     <string name="images">画像</string>
     <string name="images_allowed_description">サイト上で画像を表示します</string>
     <string name="images_allowed_via_wifi_description">Wi-Fi接続時のみサイト上で画像を表示します</string>
@@ -219,26 +228,37 @@
     <string name="open_app_add_site_exception_block">他のアプリを開くことをブロックするサイトを追加します</string>
     <string name="location1">位置情報</string>
     <string name="location_ask_first_description">初回表示時に位置情報の取得の許可を確認する</string>
+    <string name="location_add_site_exception_allow">特定のサイトで位置情報の取得を許可する</string>
+    <string name="location_add_site_exception_block">特定のサイトで位置情報の取得をブロックする</string>
     <string name="camera">カメラ</string>
     <string name="camera_ask_first_description">初回表示時にカメラの使用の許可を確認する</string>
+    <string name="camera_add_site_exception_allow">特定のサイトでカメラの使用を許可する</string>
+    <string name="camera_add_site_exception_block">特定のサイトでカメラの使用を拒否する</string>
     <string name="microphone">マイク</string>
     <string name="microphone_ask_first_description">初回表示時にマイクの使用の許可を確認する</string>
+    <string name="microphone_add_site_exception_allow">特定のサイトでマイクの使用を許可する</string>
+    <string name="microphone_add_site_exception_block">特定のサイトでマイクの使用をブロックする</string>
     <string name="page_redirection">ページのリダイレクト</string>
     <string name="page_redirection_allowed_description">任意のURLへのリダイレクトを許可する</string>
-    <string name="page_redirection_ask_first_description">クロスオリジンURLへのページリダイレクト前に確認する</string>
-    <string name="page_redirection_ask_first_description_short">クロスオリジンのリダイレクト前に確認する</string>
-    <string name="page_redirection_add_site_exception_allow">特定のサイトに対して任意のURLへのページリダイレクトを許可します</string>
-    <string name="page_redirection_add_site_exception_ask_first">特定のサイトに対してクロスオリジンのリダイレクト前に確認します</string>
-    <string name="allow_page_redirection_to_msg">%1$s へのページリダイレクトを許可しますか？</string>
-    <string name="allow_page_redirection_msg">ページリダイレクトを許可しますか？</string>
+    <string name="page_redirection_ask_first_description">別のドメインへのリダイレクト前に確認する</string>
+    <string name="page_redirection_ask_first_description_short">別のドメインへのリダイレクト前に確認する</string>
+    <string name="page_redirection_add_site_exception_allow">特定のサイトで任意のURLへのリダイレクトを許可します</string>
+    <string name="page_redirection_add_site_exception_ask_first">特定のサイトで別のドメインへのリダイレクト前に確認します</string>
+    <string name="allow_page_redirection_to_msg">%1$s へのリダイレクトを許可しますか？</string>
+    <string name="allow_page_redirection_msg">リダイレクトを許可しますか？</string>
     <string name="vibrate">バイブレーション</string>
     <string name="vibrate_allowed_description">サイトによるバイブレーションを許可する</string>
     <string name="enable_site_conf">\"%1$s\"のサイト別設定を有効にする</string>
+    <!-- 設定｜一般｜サイト別設定｜高度な設定 -->
+    <string name="quick_back">戻る時に再読み込みをしない</string>
+    <string name="quick_back_add_site_exception_on">特定のサイトで「戻る」時に再読み込みをする</string>
+    <string name="quick_back_add_site_exception_off">特定のサイトで「戻る」時に再読み込みをしない</string>
 
     <!-- 設定｜一般｜パスワードマネージャー -->
     <string name="password_manager">パスワードマネージャー</string>
     <string name="offer_to_save_passwords">パスワード保存を有効にする</string>
     <string name="passwords">パスワード</string>
+    <string name="sites_that_never_save_passwords">パスワードを保存しないサイト</string>
     <string name="save_password">パスワードを保存</string>
     <string name="save_password_message">%1$s? にパスワードを保存しますか？</string>
     <string name="password_saved">パスワードを保存しました</string>
@@ -292,9 +312,11 @@
             <string name="ui_traditional">デフォルト</string>
             <string name="ui_simple_top">上部に配置</string>
             <string name="ui_simple_bottom">下部に配置</string>
+            <string name="two_row_toolbar">2段で表示する</string>
         <!-- 設定｜一般｜ツールバーの設定｜ナビゲーションバーの非表示 -->
             <string name="fullscreen">ナビゲーションバーの非表示</string>
             <string name="disable">無効</string>
+            <string name="fullscreen_0">常に表示</string>
             <string name="fullscreen_1">スクロール</string>
             <string name="fullscreen_2">タップ</string>
             <string name="enable_tab_bar">タブバーを有効にする</string>
@@ -389,9 +411,6 @@
     <string name="search_toolbar">検索ツールバー</string>
     <string name="enable_search_toobar">検索ツールバーを有効にする</string>
     <string name="disabled">無効</string>
-    
-    <!-- 設定｜一般｜フォントサイズ -->    
-    <string name="size">フォントサイズ</string>
 
     <!-- 設定｜一般｜画面の向き -->
     <string name="orientation">画面の向き</string>
@@ -525,13 +544,10 @@
     <string name="show_sniffer_btn_automatically">スニファーボタンを自動的に表示する</string>
     <string name="block_popup">ポップアップ表示をブロック</string>
     <string name="java">JavaScript を有効</string>
-    <string name="quick_back">戻る時に再読み込みをしない</string>
     <string name="web_page_debug">ウェブページのデバッグを有効にする</string>
     <string name="web_page_debug_info">開発者オプションにてUSBデバッグを有効にした状態でPCに接続し、PCのChromeで\"chrome://inspect\"を開いてください。</string>
-    <string name="allow_webpage_access_to_clipboard">ウェブページにクリップボードへのアクセスを許可する</string>
-    <string name="ask_to_allow_webpage_to_copy_text">%DOMAIN% からテキストをコピーしますか？</string>
-    <string name="option_allow">許可</string>
-    <string name="option_deny">拒否</string>
+    <string name="disable_custom_tabs">カスタムタブを無効にする</string>
+    <string name="disable_custom_tabs_description">他のアプリからカスタムタブを開いた時、リダイレクトページをスキップします</string>
     <string name="title_disable_safe_browsing">セーフブラウジングを無効にします</string>
     <string name="title_disable_safe_browsing_description">セーフブラウジングにより、リンク先のマルウェアやフィッシング攻撃から保護できます。</string>
     <string name="title_ignore_ssl_warnings">SSL証明書の警告を無視します</string>
@@ -733,6 +749,7 @@
     <string name="toast_copy_text_successful">テキストをコピーしました</string>
     <string name="operation_none">アクションなし</string>
     <string name="operation_reload">再読み込み</string>
+    <string name="add_to_home_screen">ホーム画面に追加</string>
     <string name="operation_top">トップへ戻る</string>
     <string name="operation_bottom">ページの一番下に移動</string>
     <string name="operation_input">URL を入力</string>
@@ -756,6 +773,15 @@
     <string name="crash_close">終了</string>
     <string name="upload_completed">報告成功 :)</string>
     <string name="open_with">開く</string>
+    <string name="game_mode">ゲームモード</string>
+    <string name="game_mode_is_on">ゲームモードが有効になっています。終了するには「戻る」を2回タップしてください</string>
+    <string name="game_mode_exit">もう一度タップするとゲームモードを終了します</string>
+    <string name="report_abuse">問題を報告</string>
+    <string name="reason_distracting_content">気を散らすコンテンツが多すぎる</string>
+    <string name="reason_dangerous_website">危険なウェブサイトである</string>
+    <string name="reason_display_incorrectly">ページが正しく表示されない</string>
+    <string name="remarks_optional">備考（オプション）</string>
+    <string name="report_submitted">問題の報告が完了しました</string>
     <string name="download_completed">ダウンロード完了</string>
     <string name="toast_fullscreen_off">全画面解除</string>
     <string name="action_view_image">画像を開く</string>
